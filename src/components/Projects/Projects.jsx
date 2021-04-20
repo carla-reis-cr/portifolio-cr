@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Projetos" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -41,11 +41,12 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Conect Learn'}</h3>
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'Como bolsista da iniciação científica da Universidade Feevale, estamos desenvolvendo um app mobile Android/iOS referente ao Projeto intitulado "Práticas educativas em/na rede: autoria e colaboração no desenvolvimento de atividades de aprendizagem com tecnologias digitais", '+
+                            'orientada pela professora Patrícia Bassani, da Universidade Feevale, estamos desenvolvendo uma aplicação Web/Mobile em React, React Native e NodeJS (Knex e Express), com aplicação de Webpack, Expo e integrações com APIs.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -55,7 +56,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Veja
                       </a>
 
                       {repo && (
@@ -65,7 +66,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          {'</>'}
                         </a>
                       )}
                     </div>

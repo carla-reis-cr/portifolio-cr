@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Carla Reis',
   subtitle: '',
   cta: '',
 };
@@ -21,29 +21,11 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.canva.com/design/DAEcIJbB_Bo/2ceIxjKFry6IDyvyWiNs2w/view?utm_content=DAEcIJbB_Bo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton'
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
   {
     id: nanoid(),
     img: 'project.jpg',
@@ -59,7 +41,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'carla.cr.reis@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +50,32 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/CR_CarlaReis',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/carla-reis-60888413b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/carla-reis-cr',
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
+      url: 'https://codepen.io/carla-reis-cr',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/reis.carla.cr/',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/cr_carlareis/',
     },
   ],
 };
