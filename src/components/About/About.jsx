@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Com um pouco de experiência em Magic e seu sistema de componentes e tarefas, me apaixonei por React e comecei a desenvolver aplicação Full Stack'}
+                    'Com um pouco de experiência em Magic e seu sistema de componentes e tarefas, me apaixonei por React e comecei a desenvolver aplicações Full Stack'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Algumas outras experiências são com SGDBs e ORMs como Sequelize e Knex'}

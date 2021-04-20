@@ -32,8 +32,8 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: '...',
+    repo: 'https://github.com/carla-reis-cr/conectLearn', // if no repo, the button will not show up
   },
 ];
 
